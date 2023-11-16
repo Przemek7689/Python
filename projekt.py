@@ -1,6 +1,6 @@
 print("Witaj w LOTTO")
 print("Podaj 6 losowych liczb, pamietaj aby sie nie powtarzaly")
-Lista2 = [3,4,5,6,7,10]
+Lista2 = [3,4,5,6,7,11]
 numer = 0
 a=int(input("Podaj liczbe 1:  "))
 b=int(input("Podaj liczbe 2:  "))
@@ -15,3 +15,4 @@ for g in range(0,5):
                 numer = numer + 1
 
 print("Trafiłeś",  " ",numer)
+
