@@ -38,6 +38,7 @@ while zycie > 0:
             print(" ".join(tablica))
             print(" ")
             print(imie, " wygrales!")
+            break
     else:
         zycie -= 1
         print("Niestety tym razem się nie udało")
