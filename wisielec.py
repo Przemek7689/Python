@@ -5,7 +5,7 @@ print("Witaj w grze wisielca, podaj swoje imię: ")
 imie = input()
 
 
-lista = ["telefon", "ksiazka", "marker", "neandertalczyk", "zabawka"]
+lista = ["telefon", "ksiazka", "marker", "neandertalczyk", "zabawka","klocki","puzzle","wiatrak","sciana","ksiezyc","kot","samolot","deszcz","lampka","polaczenie","chusteczka","paleczka","nieskonczonosc"]
 
 haslo = str(lista[random.randint(0, len(lista) - 1)])
 tablica = list(haslo)

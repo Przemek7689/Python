@@ -20,3 +20,4 @@ while liczba_dziesietna<1 or liczba_dziesietna>=5000:
     liczba_dziesietna=int(input("Podaj liczbe jeszcze raz"))
 
 rzymska = ""
+

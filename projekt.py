@@ -1,5 +1,6 @@
 print("Witaj w LOTTO")
 print("Podaj 6 losowych liczb, pamietaj aby sie nie powtarzaly")
+print("Główna wygrana to 150000000zł")
 Lista2 = [3,4,5,6,7,11]
 numer = 1
 a=int(input("Podaj liczbe 1:  "))
