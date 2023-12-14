@@ -14,10 +14,9 @@ liczbyrzymskie={
     500:"D",
     900:"CM",
     1000:"M"}
-liczb_dziesietna=int(input("Podaj liczbe dziietną do 5000."))
-while liczba_dziesietna<1 or liczba_dziesietna>=5000:
+liczb_dziesietna=int(input("Podaj liczbe dziietną do 3999."))
+while liczba_dziesietna<1 or liczba_dziesietna>=3999:    
     print("Podałeś złą liczbę")
     liczba_dziesietna=int(input("Podaj liczbe jeszcze raz"))
 
-rzymska = ""
 

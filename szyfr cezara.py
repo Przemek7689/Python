@@ -11,7 +11,7 @@ def szyfr(napis, klucz):
 
     return szyfry
 
-napis=''
+napis=' '
 klucz=3
 
 szyfry= szyfr(napis, klucz)
