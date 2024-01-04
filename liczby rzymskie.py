@@ -19,4 +19,7 @@ while liczba_dziesietna<1 or liczba_dziesietna>=3999:
     print("Podałeś złą liczbę")
     liczba_dziesietna=int(input("Podaj liczbe jeszcze raz"))
 
+liczba_rzymska= ""
+for key in sorted(liczbyrzymskie.keys(), reverse=True):
+    
 
