@@ -1,7 +1,6 @@
 import random
-
+print("Witaj w grze papier kamien nozyce")
 while True:
-    print("Witaj w grze papier kamien nozyce")
     print("1 - kamień")
     print("2 - papier")
     print("3 - nozyce")
