@@ -20,8 +20,10 @@ def pole_kola(r):
     P = 3,14*(r**2)
     return P
 
-print("witaj w kalkulatorze pól figur.")
-dla_uzytkownika = """ Oto lista figur dla których można policzyć pole:
+print("                               ")
+print("Witaj w kalkulatorze pól figur.")
+print("                               ")
+dla_uzytkownika = """Oto lista figur dla których możesz obliczyć pole:
 1 - kwadrat
 2 - prostokąt
 3 - równoległobok
@@ -30,7 +32,8 @@ dla_uzytkownika = """ Oto lista figur dla których można policzyć pole:
 6 - trapez
 7 - koło """
 print(dla_uzytkownika)
-wybor = input("Wpisz numer figury od 1 do 7: ")
+print("                               ")
+wybor = input("Wpisz numer figury, której pole chcesz obliczyć (od 1 do 7): ")
 print("Wybrałeś figure numer: ", wybor)
 if wybor == "1":
     a = input("Wpisz długość boku kwadratu: ")
@@ -45,37 +48,37 @@ elif wybor == "2":
     P = pole_prostokata(a, b)
     print("Pole prostokąta wynosi:", P)
 elif wybor == "3":
-    a = input("wprowadź podstawę równoległoboku: ")
-    h = input("wprowadź wysokość równoległoboka: ")
+    a = input("Wpisz długość boku równoległoboku: ")
+    h = input("Wpisz długość wysokości równoległoboku: ")
     a = int(a)
     h = int(h)
     P = pole_rownolegloboku(a,h)
-    print("Pole równoległoboka wynosi: ", P)
+    print("Pole równoległoboku wynosi: ", P)
 elif wybor == "4":
-    e = input("wprowadź krótszą przekątną rombu: ")
-    f = input("Wprowadź dłuższą przekątną rombu: ")
+    e = input("Wpisz długość dłuższej przekątnej rombu: ")
+    f = input("Wpisz długość krótszej przekątnej rombu: ")
     e = int(e)
     f = int(f)
     P = pole_rombu(e, f)
     print("Pole rombu wynosi: ", P)
 elif wybor == "5":
-    a = input("Wprowadź podstawę trójkąta: ")
-    h = input("Wprowadź wysokość trójkąta: ")
+    a = input("Wpisz długość podstawy trójkąta: ")
+    h = input("Wpisz długość wysokości trójkąta: ")
     a = int(a)
     h = int(h)
     P = pole_trojkata(a, h)
     print("Pole trójkąta wynosi: ", P)
 elif wybor == "6":
-    a = input("Wprowadź krótszą podstawę trapezu: ")
-    b = input("Wprowadź dłuższą podstawę trapezu: ")
-    h = input("Wprowadź wysokość trapezu: ")
+    a = input("Wpisz długość krótszej podstawy trapezu: ")
+    b = input("Wpisz długość dłuższej podstawy trapezu: ")
+    h = input("Wpisz długość wysokości trapezu: ")
     a = int(a)
     b = int(b)
     h = int(h)
     P = pole_trapezu(a,b,h)
     print("Pole trapezu wynosi: ", P)
 elif wybor == "7":
-    r = input("Wprowadź promień koła: ")
+    r = input("Wpisz długość promienia koła: ")
     r = int(r)
     P = pole_kola(r)
     print("Pole koła wynosi: ", P)
