@@ -1,9 +1,12 @@
 import random
+print("              ")
 print("Witaj w grze papier kamien nozyce")
 while True:
+    print("          ")
     print("1 - kamień")
     print("2 - papier")
     print("3 - nozyce")
+    print("          ")
     wybor = int(input("Wybierz 1,2 lub 3:  "))
     los=random.randint(1,3)
 
