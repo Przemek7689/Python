@@ -1,4 +1,6 @@
+print("                               ")
 print("Witaj w konwerterze liczb dziesiętnych na liczby rzymskie.")
+print("                               ")
 
 from collections import OrderedDict
 def pisz_system_rzymski(liczba):
