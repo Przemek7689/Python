@@ -17,7 +17,7 @@ def pole_trapezu(a, b, h):
     P = ((a + b)*h)/2
     return P
 def pole_kola(r):
-    P = 3,14*(r**2)
+    P = (3,14)*(r**2)
     return P
 
 print("                               ")
